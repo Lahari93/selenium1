@@ -5,20 +5,20 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 import javax.mail.MessagingException;
-import javax.mail.internet.AddressException;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.base.Page;
 import com.w2a.utilities.MonitoringMail;
 import com.w2a.utilities.TestConfig;
 import com.w2a.utilities.Utilities;
+
+import sun.jvm.hotspot.debugger.AddressException;
 
 public class CustomListeners extends Page implements ITestListener,ISuiteListener {
 
